@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and  (min-width: 600px">
+    <link rel="stylesheet" href="./desktop.css" media="screen and  (min-width: 800px">
+    <title>POkemon</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header_top">
+        <img class="header_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/2052px-Pok%C3%A9_Ball_icon.svg.png">
+        <button class="header_btn">&#8711</button>
+        </div>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#c">Pokedex</a></li>
+            <li><a href="#">Torneos</a></li>
+            <li><a href="#">Nosotros</a></li>
+          </ul>
+        </nav>
+    </div>
+    <main>
+        <section class="pokemon_info">
+            <div class="Box_pokemon">
+                <h1 class="NombrePOkemon">Charizard</h1>
+                <div class="imagenPokemon">
+                <img  src="https://www.pngplay.com/wp-content/uploads/10/Charizard-Pokemon-PNG-Clip-Art-HD-Quality.png">
+                </div>
+                <div class="Tipos">
+                <p id="tipo_1">Fuego</p>
+                <p id="tipo_2">Volador</p>
+                </div>
+                <div class="descripcion">
+                <p>Charizard es un Pokémon de tipo <b>fuego/volador</b>, introducido en la <b>primera generación</b>. Es la evolución de <b>Charmeleon</b>.
+                </p>
+                </div>
+                <div class="logos">
+                    <img class="img" src="https://static.wikia.nocookie.net/espokemon/images/8/8d/Charizard_icon.png">
+                    <img class="img" src="https://static.wikia.nocookie.net/espokemon/images/5/54/Mega-Charizard_X_icon.png">
+                    <img class="img" src="https://static.wikia.nocookie.net/espokemon/images/0/0f/Mega-Charizard_Y_icon.png">
+                </div>
+            </div>
+        </section>
+        <section class="pokemon_images">
+            <h1 class="Titulo">Busquedas relacionadas</h1>
+            <div class="imagenes_pokemon">
+                <img class="pokemon1 pok" id="pok1" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png">
+                <img class="pokemon2 pok" id="pok1"src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png">
+                <img class="pokemon3 pok" id="pok1"src="https://static.wikia.nocookie.net/espokemon/images/7/77/Pikachu.png">
+                <img class="pokemon4 pok" id="pok1"src="https://static.wikia.nocookie.net/espokemon/images/f/f2/Eevee.png">
+            </div>            
+        </section>
+    </main>
+    <script>
+        const header_btr=document.querySelector(".header_btn")
+        const  header_menu=document.querySelector(".header-menu")
+        header_btr.addEventListener("click", ()=>{
+            if (header_menu.style.display !='block'){
+                header_menu.style.display='block'
+            }else{
+                header_menu.style.display='none'
+            }
+
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.header-menu ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.header-menu ul li{
+    padding-left: 1rem;
+    border-bottom: 0.125rem solid black;
+}

@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+.header_top{
+    display: flex;
+    justify-content:flex-start;
+    width: 30%;
+}
+.header_btn{
+    display: none;
+}
+.header-menu{
+    display: block;
+    width: 70%;
+}
+.header-menu ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}

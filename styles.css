@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.header {
+    background-color: rgb(187, 183, 183);
+    padding: 0rem;
+    color:black;
+    box-shadow: 2px 2px 5px #999;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo{
+    width: 5rem;
+    height: 5rem;
+}
+.header_btn{
+    font-size: 3rem;
+    height: 3rem;
+    background-color: gray;
+    position: relative;
+    top: 0.3rem;
+    right: 0.3rem;
+}
+.header-menu{
+    display: none;
+}
+.header-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header-menu ul li{
+    border-bottom: 0.125rem solid black;
+}
+.header-menu ul a{
+    color:black;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.pokemon_info{
+    background-color: white;
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.Box_pokemon{
+    background-color: transparent;
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    border: 0.1rem solid gray;
+    border-radius: 1rem;
+  
+}
+.NombrePOkemon{
+    font-size: 4rem;
+    color: white;
+    background-color: #313131;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    width: 20rem;
+    text-align: center;
+    text-justify:inter-word;
+    position: relative;
+    bottom: 2rem;
+}
+.imagenPokemon{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    
+
+}
+    
+.imagenPokemon img{
+    height: 100%;
+    background-color: #31A7D7;
+    border-radius: 0.5rem;
+    border: 0.1rem solid gray;
+
+
+}
+.Box_pokemon .Tipos{
+    display: flex;
+    margin-bottom: 0.5rem;
+
+}
+.Box_pokemon .Tipos p{
+    display: flex;
+    font-size:2rem;
+    border: 0.1rem solid white;
+    width: 7.5rem;
+    justify-content: center;
+    align-items: center;
+    font-weight:300;
+    border-radius: 1rem;
+    color: white;
+}
+#tipo_1{
+    background-color: #F05030;
+    
+}
+#tipo_2{
+        background-color: #98A8F0;
+        
+}
+.descripcion{
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-top: 0.2rem solid gray;
+    border-bottom: 0.2rem solid gray;
+
+
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    margin-bottom: 0.5rem;
+
+}
+
+.img{
+    width: 10%;
+}
+
+.pokemon_images{    
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-top: 0.5rem solid gray;
+
+}
+.imagenes_pokemon{
+    background-color: transparent;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+
+
+}
+.pok{
+    background-color: gray;
+    width: 14em;
+    height: 14rem;
+    margin: 1rem;
+}
+
+.Titulo{
+    font-size: 2.5rem;
+    color: #313131;
+    width: 20rem;
+    text-align: center;
+    text-justify:inter-word;
+    margin-bottom: 0.5rem;
+    
+}
