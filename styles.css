@@ -11,6 +11,7 @@ html{
     background-color: rgb(187, 183, 183);
     padding: 0rem;
     color:black;
+    width: 100%;
     box-shadow: 2px 2px 5px #999;
 }
 .header_top{
@@ -80,14 +81,16 @@ html{
     text-justify:inter-word;
     position: relative;
     bottom: 2rem;
+    margin: 0rem 0rem 0rem 0rem;
 }
 .imagenPokemon{
-    width: 90%;
+    width: 100%;
     height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem;
+    background-color: transparent;
     
 
 }
@@ -100,12 +103,19 @@ html{
 
 
 }
-.Box_pokemon .Tipos{
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Tipos{
     display: flex;
     margin-bottom: 0.5rem;
+    
 
 }
-.Box_pokemon .Tipos p{
+.Tipos p{
     display: flex;
     font-size:2rem;
     border: 0.1rem solid white;
@@ -125,7 +135,7 @@ html{
         
 }
 .descripcion{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 0.5rem;
@@ -168,7 +178,7 @@ html{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: 0.2rem solid gray;
+    border: 0.1rem solid gray;
     border-radius: 1rem;
 
 

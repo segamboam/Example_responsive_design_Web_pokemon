@@ -7,3 +7,39 @@
     padding-left: 1rem;
     border-bottom: 0.125rem solid black;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pokemon_info{
+    order:2;
+    background-color:transparent;
+    width: 70%;
+    height: 70rem;
+    margin-top: 1rem;
+
+}
+.descripcion{
+    font-size: 2.5rem;
+}
+
+.pokemon_images{
+    width:  30%;
+    border-top: none;
+    margin-top: none;
+}
+.Titulo{
+    margin-bottom: none;
+}
+.pok{
+    background-color: blue;
+    width: 14em;
+    height: 14rem;
+    margin: 0.5rem;
+}

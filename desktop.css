@@ -19,3 +19,109 @@
     flex-direction:row;
     justify-content: flex-end;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+.pokemon_info{
+    order:1;
+    background-color:transparent;
+    width: 100%;
+    height: 40rem;
+    margin-top: 1rem;
+}
+.Box_pokemon{
+    background-color: transparent;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+.NombrePOkemon{
+    margin: 0rem 35rem 0rem 35rem;
+}
+.imagenPokemon{
+    width:45%;
+    height: 80%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-bottom: 0rem;
+}
+.imagenPokemon img{
+    width: 80%;
+    background-color: #31A7D7;
+    border-radius: 0.5rem;
+    border: 0.1rem solid gray;
+
+
+}
+.contenido{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Tipos{
+    display: flex;
+    background-color:white;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.Tipos p{
+    height: 5rem;
+    width: 12rem;
+    font-size: 3rem;
+
+}
+.descripcion{
+    font-size: 3rem;
+    background-color: white;
+    
+}
+.logos{
+    background-color: white;
+
+}
+.logos .img{
+    width: 15%;
+}
+.imagenes_pokemon{
+    width: 95%;
+}
+
+
+.pokemon_images{
+    order: 2;
+    width:  100%;
+    border-top: none;
+    margin-top: none;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+
+.Titulo{
+    margin-bottom: none;
+    background-color: white;
+    width: 40rem;
+}
+.pok{
+    background-color: green;
+    width: 14em;
+    height: 14rem;
+    margin: 0.5rem;
+}
